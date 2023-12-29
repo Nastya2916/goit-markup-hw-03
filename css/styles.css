@@ -18,15 +18,24 @@ p {
 }
 
 .container {
-  width: 1188px;
+  width: 100%;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
+
 button {
   cursor: pointer;
 }
-
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
 .header-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -35,10 +44,15 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
 header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 ul {
@@ -57,6 +71,8 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-menu-link:hover,
@@ -74,6 +90,11 @@ ul {
 }
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+.address-menu {
+  display: flex;
+  gap: 40px;
 }
 .address-link:hover,
 .address-link:focus {
@@ -82,7 +103,8 @@ ul {
 
 .container-hero {
   background: #2e2f42;
-  padding: 188px 472px 292px 472px;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 .main-title-effective {
   color: #fff;
@@ -93,6 +115,7 @@ ul {
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .main-button {
@@ -102,10 +125,14 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
 }
 .main-button {
   cursor: pointer;
 }
+
 .main-button:hover,
 .main-button:focus {
   background-color: #404bbf;
@@ -122,6 +149,10 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.main-section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .main-page,
 .title-section-three,
 .title-section-four {
@@ -131,6 +162,10 @@ ul {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
 }
+.main-page {
+  margin-bottom: 8px;
+}
+
 .main-paragraph,
 .paragraph-section-three,
 .paragraph-section-four {
