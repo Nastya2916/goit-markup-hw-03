@@ -6,6 +6,25 @@ body {
 
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1188px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
 }
 
 .header-logo {
@@ -17,9 +36,16 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .header-span {
@@ -53,8 +79,10 @@ ul {
 .address-link:focus {
   color: #404bbf;
 }
-.main-section-one {
+
+.container-hero {
   background: #2e2f42;
+  padding: 188px 472px 292px 472px;
 }
 .main-title-effective {
   color: #fff;
@@ -63,7 +91,10 @@ ul {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  max-width: 496px;
 }
+
 .main-button {
   color: #fff;
   font-size: 16px;
@@ -78,6 +109,18 @@ ul {
 .main-button:hover,
 .main-button:focus {
   background-color: #404bbf;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .main-page,
 .title-section-three,
