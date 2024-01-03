@@ -179,9 +179,7 @@ ul {
 }
 
 .title-section-four {
-  margin-top: 32px;
   margin-bottom: 8px;
-  margin-left: 16px;
 }
 
 .main-page {
@@ -201,10 +199,12 @@ ul {
 .paragraph-section-three {
   text-align: center;
 }
-.main-paragraph {
-  width: calc(100% -24px * 3) / 4;
-  text-align: left;
-  width: 264px;
+
+.card-two {
+  width: calc((100% - 48px) / 3);
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .menu-container {
   background: #f4f4fd;
