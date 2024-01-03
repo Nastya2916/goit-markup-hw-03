@@ -164,7 +164,8 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.main-item {calc((100% - 72px) / 4);
+.main-item {
+  width: calccalc((100% - 72px) / 4);
 }
 .main-menu {
   display: flex;
