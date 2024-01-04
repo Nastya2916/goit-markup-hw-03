@@ -199,6 +199,9 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+.main-paragraph {
+  text-align: start;
+}
 .paragraph-section-three {
   text-align: center;
 }
@@ -220,7 +223,6 @@ ul {
   padding: 32px 0;
 }
 .main-section-three {
-  padding: 120px 0;
   background-color: #f4f4fd;
 }
 .section-three-item {
@@ -287,8 +289,7 @@ ul {
   padding-bottom: 120px;
 }
 .paragraph-section-four {
-  margin-left: 16px;
-  margin-right: 316px;
+  text-align: start;
 }
 
 .footer-page {
